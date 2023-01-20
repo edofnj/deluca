@@ -1,7 +1,12 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
   background-color: #333;
   height: 100px;
-  : 0;
 }
 
 nav ul {
@@ -24,17 +29,27 @@ nav a {
 }
 
 nav a:hover {
-  color: black;
-  background-color: white;
+  color: #333;
+  background-color: whitesmoke;
 }
 
-#nav_text{
-  color: white;
+.nav_text{
+  color: whitesmoke;
   float: left;
   padding: 30px;
   font-size: 30px;
+  font-weight: bold;
 }
 
 body{
-  background-color: #c5c7c7;
+  background-color: whitesmoke;
+}
+
+#personal{
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  padding: 3%;
+  border: #333 solid 3px;
 }
